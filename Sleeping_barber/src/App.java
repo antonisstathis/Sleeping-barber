@@ -16,9 +16,7 @@ public class App {
 		String[] gender = {"male","female"};
 		Semaphore semaphore = new Semaphore(1);
 		Semaphore semWaitRoom = new Semaphore(4);
-		ArrayBlockingQueue array = new ArrayBlockingQueue<Person>(4);
 		
-		Person[] array1 = new Person[4];
 		Person[] person = new Person[10];
 		Barber barber = new Barber(semaphore);
 		
