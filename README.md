@@ -1,3 +1,2 @@
 # Sleeping-barber
-
-Επίλυση του προβλήματος sleeping barber με χρήση σημαφόρων και monitor.
+Solve sleeping barber problem using semaphores and monitor in java.
